@@ -82,8 +82,3 @@ def upload_images():
         #print(predicted_label)
 
     return jsonify({'data': predicted_label})
-
-
-
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port='8004', threaded=True)
