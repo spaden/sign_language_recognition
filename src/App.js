@@ -55,11 +55,13 @@ const WebcamCapture = () => {
         
         //const resp = await response.json()
 
-        const dt = ['Hello', 'I love you', 'Yes!']
+        const dt = ['Hello', 'also', 'ask', 'beautiful', 'cat', 'drive', 'eat', 'excuse'
+            ,'fine', 'friends', 'hard', 'help', 'iloveyou', 'like',
+           'me', 'mom', 'more', 'movie', 'out', 'play', 'repeat', 'thankyou', 'what', 'where', 'who', 'why', 'yes']
 
 
         if (true) {
-          setResponseOutput(dt[Math.floor(Math.random() * 3)])
+          setResponseOutput(dt[Math.floor(Math.random() * 26)])
         }
         
         
